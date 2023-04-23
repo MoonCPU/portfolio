@@ -24,7 +24,7 @@ const AboutMe = () => {
                     <h1>About me</h1>    
                 </div>            
                 <div>
-                    <p className="indent-4">I am a DevOps engineer and application developer, currently working at IBM. As drawing gradually became my hobby, I realized the endless possibilities of combining my passion with my job. I am committed to continually learning and growing in this field, and I look forward to exploring new and innovative ways to bring my artistic vision to life as a Front-End developer.</p>    
+                    <p className="indent-4">I am a DevOps engineer and application developer, currently working at IBM. I am very interested in software development, and I am committed to continually learn and grow as a Front-End developer.</p>    
                 </div>    
                 <div id="bio" className="mt-6">
                     <div className="text-xl mb-2 font-medium flex flex-col">Bio</div>
