@@ -2,6 +2,8 @@ import React from "react";
 import { motion } from "framer-motion";
 
 import project1 from "../assets/project1.png";
+import project2 from "../assets/project2.gif";
+import project3 from "../assets/project3.gif";
 
 const Works = () => {
 
@@ -30,7 +32,7 @@ const Works = () => {
             <motion.div className="grid grid-cols-2 gap-2 w-2/3 mx-auto" variants={container} initial="hidden" whileInView="show" viewport={{ once: true }}>
                 <motion.div className="max-w-sm col-span-1 flex flex-col items-center gap-1" variants={item}>
                     <a href="https://github.com/MoonCPU/IES300" target="_blank">
-                        <img src={project1} alt="My Image" className="w-full h-40 rounded-lg" />                        
+                        <img src={project1} alt="project1" className="w-full h-40 rounded-lg" />                        
                     </a>
                     <h1 className="border-b border-white my-1">
                         IES300    
@@ -39,27 +41,27 @@ const Works = () => {
                 </motion.div>
 
                 <motion.div className="max-w-sm col-span-1 flex flex-col items-center gap-1" variants={item}>
-                    <a href="">
-                        <img src={project1} alt="My Image" className="w-full h-40 rounded-lg" />                        
+                    <a href="https://restaurant-react-seven.vercel.app/" target="_blank">
+                        <img src={project2} alt="project2" className="w-full h-40 rounded-lg" />                        
                     </a>
                     <h1 className="border-b border-white my-1">
-                        Site 1    
+                        Ichiban Sushi  
                     </h1>       
-                    <p className="px-1 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptas. Cum sunt recusandae explicabo. Sed non provident recusandae natus dolor sunt.</p>             
+                    <p className="px-1 text-center">A website for a fictional sushi restaurant I made.</p>             
                 </motion.div>
 
                 <motion.div className="max-w-sm col-span-1 flex flex-col items-center gap-1 mt-1" variants={item}>
-                    <a href="">
-                        <img src={project1} alt="My Image" className="w-full h-40 rounded-lg" />  
+                    <a href="https://pokedex-zeta-dun.vercel.app/" target="_blank">
+                        <img src={project3} alt="My Image" className="w-full h-40 rounded-lg" />  
                     </a>
                     <h1 className="border-b border-white my-1">
-                        Site 2    
+                        Pokédex    
                     </h1>       
-                    <p className="px-1 text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt ullam saepe excepturi, ducimus maxime iure facilis temporibus rerum. Odit molestias eveniet ipsam tempora!</p>             
+                    <p className="px-1 text-center">A Pokédex project using the famous Pokémon API.</p>             
                 </motion.div>
 
                 <motion.div className="max-w-sm col-span-1 flex flex-col items-center gap-1 mt-1" variants={item}>
-                    <a href="">
+                    <a href="" target="_blank">
                         <img src={project1} alt="My Image" className="w-full h-40 rounded-lg" />                        
                     </a>
                     <h1 className="border-b border-white my-1">
