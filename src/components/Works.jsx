@@ -50,8 +50,8 @@ const Works = () => {
                     <p className="px-1 text-center">A website for a fictional sushi restaurant I made.</p>             
                 </motion.div>
 
-                <motion.div className="max-w-sm col-span-2 sm:col-span-1 flex flex-col items-center gap-1" variants={item}>
-                    <a href="https://pokedex-zeta-dun.vercel.app/" target="_blank">
+                <motion.div className="max-w-sm col-span-2 sm:col-span-1 flex flex-col items-center gap-1 mb-5" variants={item}>
+                    <a href="https://pokedex-mooncpu.vercel.app/" target="_blank">
                         <img src={project3} alt="My Image" className="w-full h-36 rounded-lg" />  
                     </a>
                     <h1 className="border-b border-white my-1">
