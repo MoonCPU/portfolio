@@ -101,12 +101,12 @@ const Works = () => {
                 transition={{ duration: 0.5 }}  
                 className="max-w-sm col-span-2 sm:col-span-1 flex flex-col items-center gap-1 relative top-[-50px]">
                     <a href="" target="_blank">
-                        <img src={project1} alt="My Image" className="w-full h-36 rounded-lg" />                        
+                        <img src="" alt="Coming Soon" className="w-full h-36 rounded-lg" />                        
                     </a>
                     <h1 className="border-b border-white my-1">
-                        Site 3    
+                        Coming Soon    
                     </h1>       
-                    <p className="px-1 text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor accusantium reiciendis commodi praesentium omnis vero!</p>             
+                    <p className="px-1 text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae, voluptate.</p>             
                 </motion.div>
             </motion.div>
         </div>
