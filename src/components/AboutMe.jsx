@@ -14,13 +14,13 @@ const AboutMe = () => {
                 <div className="flex flex-col justify-between sm:flex-row mb-4">
                     <div className="my-auto mx-auto sm:mx-0">
                         <h1 className="text-lg sm:text-2xl font-medium text-center sm:text-left">&lt;Moon Hyuk Kang /&gt;</h1>
-                        <h2 className="text-sm mb-1 sm:my-0 text-center">developer / designer / aspiring artist</h2>                       
+                        <h2 className="text-sm mb-1 sm:my-0 text-center">developer / designer / artist</h2>            
+                        <h2 className="my-2 sm:my-1 text-center sm:text-left text-green-500 text-lg">moonkang20@gmail.com</h2>             
                     </div>
                     <div className="mx-auto sm:mx-0 mt-3 mb-1 sm:my-0">
                         <img src={myImage} alt="My Image" className="object-contain h-28 w-28 rounded-full border-2 border-white" />
                     </div>
                 </div>
-                <h2 className="text-center my-6">moonkang20@gmail.com</h2>  
                 <div className="text-xl my-1 font-medium">
                     <h1>About me</h1>    
                 </div>            

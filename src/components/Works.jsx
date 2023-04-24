@@ -40,7 +40,7 @@ const Works = () => {
     };
 
     return(
-        <div className="text-white flex flex-col max-w-3xl mx-auto mb-5">
+        <div className="text-white flex flex-col max-w-3xl mx-auto">
             <div className="w-2/3 mx-auto mb-5"> 
                 <h1 className="text-xl font-medium">Works</h1>
             </div>

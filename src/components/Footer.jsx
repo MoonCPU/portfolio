@@ -2,7 +2,8 @@ import React from "react";
 
 const Footer = () => {
     return(
-        <div className="text-gray-400 text-sm flex flex-col w-full items-center justify-center py-5 px-4">
+        <div className="text-gray-400 text-sm flex flex-col w-full items-center justify-center pb-5 px-4">
+            <hr className='w-[80%] sm:w-[50%] mb-5' />    
             <h1>
                 &copy; Moon Kang
             </h1>
