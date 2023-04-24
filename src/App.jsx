@@ -19,7 +19,7 @@ function App() {
         <div className="App">
         <Navbar />
         <div className='flex items-center justify-center mb-6 mt-4 z-10'>
-            <Canvas style={{ width: '400px', height: '320px' }}>
+            <Canvas style={{ width: '380px', height: '320px' }}>
             <Suspense fallback={null}>
                 <pointLight color="#f6f3ea" position={[10, 5, 10]} intensity={2} />
                 <Model />
