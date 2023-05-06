@@ -106,7 +106,7 @@ const Works = () => {
                     <h1 className="border-b border-white my-1">
                         Coming Soon    
                     </h1>       
-                    <p className="px-1 text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae, voluptate.</p>             
+                    <p className="px-1 text-center">Full-stack project using Django for back and React for Front-End coming soon.</p>             
                 </motion.div>
             </motion.div>
         </div>
