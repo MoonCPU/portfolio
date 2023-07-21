@@ -1,15 +1,18 @@
-import React from "react";
+import {React} from "react";
 import myImage from '../assets/aboutMe.png';
 
 import {AiFillHeart} from "react-icons/ai";
 
+import { useTranslation } from 'react-i18next';
+
 const AboutMe = () => {
+    const { t } = useTranslation();
 
     return(
         <div className="text-white flex flex-col max-w-2xl mx-auto">
             <div className="w-2/3 mx-auto"> 
                 <div className="bg-gray-600 mx-auto p-4 text-center rounded-lg mb-8">
-                    <h1>Hello, I'm a Front-End developer based in Brazil!</h1>
+                    <h1>{t('aboutMe.greeting')}</h1>
                 </div>
                 <div className="flex flex-col justify-between sm:flex-row mb-4">
                     <div className="my-auto mx-auto sm:mx-0">
@@ -22,28 +25,28 @@ const AboutMe = () => {
                     </div>
                 </div>
                 <div className="text-xl my-1 font-medium">
-                    <h1>About me</h1>    
+                    <h1>{t('aboutMe.aboutTitle')}</h1>    
                 </div>            
                 <div>
-                    <p className="indent-4">I am a DevOps engineer and application developer, currently working at IBM. I've been learning and practicing with a series of programming languages and technology for the last year to make it as a professional Front-End developer.</p>    
+                    <p className="indent-4">{t('aboutMe.aboutContent')}</p>    
                 </div>    
                 <div id="bio" className="mt-6">
                     <div className="text-xl mb-2 font-medium flex flex-col">Bio</div>
                     <div className="flex flex-row mb-1">
                         <h1>2000</h1>
-                        <p className="pl-4">Born in Asunción, Paraguay.</p>
+                        <p className="pl-4">{t('aboutMe.birth')}</p>
                     </div>
                     <div className="flex flex-row mb-1">
                         <h1>2001</h1>
-                        <p className="pl-4">Moved to São Paulo, Brazil.</p>
+                        <p className="pl-4">{t('aboutMe.move')}</p>
                     </div>
                     <div className="flex flex-row mb-1">
                         <h1>2021</h1>
-                        <p className="pl-4">My first professional experience in IT as an intern at IBM.</p>
+                        <p className="pl-4">{t('aboutMe.experience')}</p>
                     </div>
                     <div className="flex flex-row">
                         <h1>2022</h1>
-                        <p className="pl-4">Completed my Associate Degree in Systems Analysis and Development at FATEC (Faculdade de Tecnologia de São Paulo)</p>
+                        <p className="pl-4">{t('aboutMe.degree')}</p>
                     </div>
                 </div>
                 <div id="iLove">
@@ -54,7 +57,7 @@ const AboutMe = () => {
                     </div>
                     <hr className="text-white mb-2 w-10" />
                     <div>
-                        <h1 className="indent-4">Movies, Books by Rick Riordan, Gaming and Drawing while listening to Podcasts.</h1>
+                        <h1 className="indent-4">{t('aboutMe.interests')}</h1>
                     </div>                    
                 </div>
             </div>

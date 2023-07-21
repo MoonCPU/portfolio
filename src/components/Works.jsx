@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
+import { useTranslation } from 'react-i18next';
 import { useInView } from 'react-intersection-observer';
 
 import project1 from "../assets/project1.png";
@@ -8,6 +9,8 @@ import project2 from "../assets/project2.gif";
 import project3 from "../assets/project3.gif";
 
 const Works = () => {
+    const { t } = useTranslation();
+
     const [ref, inView] = useInView({
         threshold: 0.5,
         triggerOnce: true,
@@ -42,7 +45,7 @@ const Works = () => {
     return(
         <div className="text-white flex flex-col max-w-3xl mx-auto">
             <div className="w-2/3 mx-auto mb-5"> 
-                <h1 className="text-xl font-medium">Works</h1>
+                <h1 className="text-xl font-medium">{t('works.title')}</h1>
             </div>
             <motion.div className="grid sm:grid-cols-2 gap-2 w-2/3 mx-auto">
                 <motion.div 
@@ -58,7 +61,7 @@ const Works = () => {
                     <h1 className="border-b border-white my-1">
                         IES300    
                     </h1>       
-                    <p className="px-1 text-center">A school library management system. All books are marked down, their return dates and the name and school ID of the student who borrowed them.</p>             
+                    <p className="px-1 text-center">{t('works.work1')}</p>             
                 </motion.div>
 
                 <motion.div 
@@ -74,7 +77,7 @@ const Works = () => {
                     <h1 className="border-b border-white my-1">
                         Ichiban Sushi  
                     </h1>       
-                    <p className="px-1 text-center">A website for a fictional sushi restaurant I made.</p>             
+                    <p className="px-1 text-center">{t('works.work2')}</p>             
                 </motion.div>
 
                 <motion.div 
@@ -90,7 +93,7 @@ const Works = () => {
                     <h1 className="border-b border-white my-1">
                         Pokédex    
                     </h1>       
-                    <p className="px-1 text-center">A Pokédex project using the famous Pokémon API.</p>             
+                    <p className="px-1 text-center">{t('works.work3')}</p>             
                 </motion.div>
 
                 <motion.div
@@ -106,7 +109,7 @@ const Works = () => {
                     <h1 className="border-b border-white my-1">
                         Coming Soon    
                     </h1>       
-                    <p className="px-1 text-center">Full-stack project using Django for back and React for Front-End coming soon.</p>             
+                    <p className="px-1 text-center">{t('works.work4')}</p>             
                 </motion.div>
             </motion.div>
         </div>
