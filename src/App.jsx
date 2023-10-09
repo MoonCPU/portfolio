@@ -10,6 +10,7 @@ import AboutMe from './components/AboutMe';
 import Model from './components/Model';
 import Footer from './components/Footer';
 import Works from './components/Works';
+import Tech from './components/Tech';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         </Canvas>
     </div>
     <AboutMe />
+    <Tech/>
     <div className="flex items-center justify-center my-9">
         <hr className="w-64 sm:w-96" />
     </div>

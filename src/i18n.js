@@ -15,7 +15,7 @@ i18n
       en: {
         translation: {
           aboutMe: {
-            "greeting": "Hello, I'm a Front-End developer based in Brazil!",
+            "greeting": "Hello, I'm a developer based in Brazil!",
             "role": "developer / designer / artist",
             "aboutTitle": "About me",
             "aboutContent": "I am a DevOps engineer and application developer, currently working at IBM. I've been learning and practicing with a series of programming languages and technology for the last year to make it as a professional Front-End developer.",
@@ -31,16 +31,16 @@ i18n
             "work2": "A website for a fictional sushi restaurant I made.",
             "work3": "A Pokédex project using the famous Pokémon API.",
             "work4": "Ecommerce website using Node for Back-End and React for Front-End."
-          }
+          },
         },
       },
       pt_br: {
         translation: {
           aboutMe: {
-            "greeting": "Olá, sou um desenvolvedor Front-End baseado no Brasil!",
+            "greeting": "Olá, sou um desenvolvedor baseado no Brasil!",
             "role": "desenvolvedor / designer / artista",
             "aboutTitle": "Sobre mim",
-            "aboutContent": "Sou um engenheiro DevOps e desenvolvedor de aplicativos, atualmente trabalhando na IBM. Tenho aprendido e praticado com uma série de linguagens de programação e tecnologias nos últimos anos para me tornar um desenvolvedor Front-End profissional.",
+            "aboutContent": "Sou um engenheiro DevOps e desenvolvedor de aplicações, atualmente trabalhando na IBM. Tenho aprendido e praticado com uma série de linguagens de programação e tecnologias nos últimos anos para me tornar um desenvolvedor Front-End profissional.",
             "birth": "Nascido em Assunção, Paraguai.",
             "move": "Me mudei para São Paulo, Brasil.",
             "experience": "Minha primeira experiência profissional em TI como estagiário na IBM.",
