@@ -53,7 +53,7 @@ const AboutMe = () => {
                     <div className="mt-6 text-xl mb-1 flex flex-row items-end">
                         <h1 className="font-medium pr-2">I
                         </h1>
-                        <AiFillHeart className="text-red-500 text-2xl hover:text-red-700 duration-500 ease-in-out" />                            
+                        <AiFillHeart className="text-red-500 text-2xl hover:text-red-700 duration-500 ease-in-out animate-pulse" />                            
                     </div>
                     <hr className="text-white mb-2 w-10" />
                     <div>
