@@ -7,6 +7,7 @@ import { useInView } from 'react-intersection-observer';
 import project1 from "../assets/project1.png";
 import project2 from "../assets/project2.gif";
 import project3 from "../assets/project3.gif";
+import project4 from "../assets/project4.gif";
 
 const Works = () => {
     const { t } = useTranslation();
@@ -88,7 +89,7 @@ const Works = () => {
                 transition={{ duration: 0.5 }}  
                 className="max-w-sm col-span-2 sm:col-span-1 flex flex-col items-center gap-1 mb-5 relative top-[-50px]">
                     <a href="https://pokedex-mooncpu.vercel.app/" target="_blank">
-                        <img src={project3} alt="My Image" className="w-full h-36 rounded-lg" />  
+                        <img src={project3} alt="project3" className="w-full h-36 rounded-lg" />  
                     </a>
                     <h1 className="border-b border-white my-1">
                         Pokédex    
@@ -103,11 +104,11 @@ const Works = () => {
                 variants={variants}
                 transition={{ duration: 0.5 }}  
                 className="max-w-sm col-span-2 sm:col-span-1 flex flex-col items-center gap-1 relative top-[-50px]">
-                    <a href="" target="_blank">
-                        <img src="" alt="Coming Soon" className="w-full h-36 rounded-lg" />                        
+                    <a href="https://ecommerce-kappa-umber.vercel.app/" target="_blank">
+                        <img src={project4} alt="project4" className="w-full h-36 rounded-lg" />                        
                     </a>
                     <h1 className="border-b border-white my-1">
-                        Coming Soon    
+                        Ecommerce    
                     </h1>       
                     <p className="px-1 text-center">{t('works.work4')}</p>             
                 </motion.div>

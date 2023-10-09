@@ -30,7 +30,7 @@ i18n
             "work1": "A school library management system made in Python.",
             "work2": "A website for a fictional sushi restaurant I made.",
             "work3": "A Pokédex project using the famous Pokémon API.",
-            "work4": "Full-stack project using Express for Back-End and React for Front-End coming soon."
+            "work4": "Ecommerce website using Node for Back-End and React for Front-End."
           }
         },
       },
@@ -52,7 +52,7 @@ i18n
             "work1": "Um sistema de gerenciamento de biblioteca escolar feito em Python.",
             "work2": "Um site para um restaurante de sushi fictício que eu criei.",
             "work3": "Um projeto de Pokédex usando a famosa API de Pokémon.",
-            "work4": "Projeto full-stack utilizando Express para o Back-End e React para o Front-End em breve."
+            "work4": "Site de ecommerce utilizando Node para o Back-End e React para o Front-End."
           }
         },
       },
