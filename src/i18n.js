@@ -44,7 +44,7 @@ i18n
             "birth": "Nascido em Assunção, Paraguai.",
             "move": "Me mudei para São Paulo, Brasil.",
             "experience": "Minha primeira experiência profissional em TI como estagiário na IBM.",
-            "degree": "Concluí meu Diploma de Tecnólogo em Análise e Desenvolvimento de Sistemas na FATEC (Faculdade de Tecnologia de São Paulo)",
+            "degree": "Concluí o curso Tecnólogo em Análise e Desenvolvimento de Sistemas na FATEC (Faculdade de Tecnologia de São Paulo)",
             "interests": "Filmes, Livros de Rick Riordan, Jogos e Desenhar enquanto ouço Podcasts."
           },
           works: {
